@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea1_2.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Ejercicio 1.2" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Frame BackgroundColor="#C1F4F6" Padding="5" Margin="30,10,30,10" CornerRadius="4">
+            <Entry x:Name="nom" Placeholder="Nombre" Keyboard="Text"/>
+        </Frame>
+
+        <Frame BackgroundColor="#C1F4F6" Padding="5" Margin="30,10,30,10" CornerRadius="4">
+            <Entry x:Name="ape" Placeholder="Apellido"  Keyboard="Text"/>
+        </Frame>
+
+        <Frame BackgroundColor="#C1F4F6" Padding="5" Margin="30,10,30,10" CornerRadius="4">
+            <Entry x:Name="edad" Placeholder="Edad" Keyboard="Numeric"/>
+        </Frame>
+
+        <Frame BackgroundColor="#C1F4F6" Padding="5" Margin="30,10,30,10" CornerRadius="4">
+            <Entry x:Name="mail" Placeholder="Correo Electrónico"  Keyboard="Email"/>
+        </Frame>
+        
+        
+    </StackLayout>
+
+</ContentPage>
